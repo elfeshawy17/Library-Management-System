@@ -60,6 +60,3 @@ Library Management System
 
 ## Contributing
 Feel free to fork this repository and make improvements. Pull requests are welcome!
-
-## License
-This project is licensed under the MIT License.
