@@ -34,17 +34,35 @@ This is a Library Management System implemented in Java, following SOLID princip
 
 ## Project Structure
 ```
-Library Management System
-│── src
-│   ├── models
-│   │   ├── LibraryItem.java
-│   │   ├── Book.java
-│   │   ├── Customer.java
-│   ├── services
-│   │   ├── LibraryService.java
-│   │   ├── CustomerService.java
-│   ├── Main.java
-│── README.md
+Library-Management-System/
+│── .idea/
+│── out/
+│── src/
+│   ├── customers/
+│   │   ├── BorrowingPrivilege
+│   │   ├── BrowsePrivilege
+│   │   ├── BuyPrivilege
+│   │   ├── Customer
+│   │   ├── GuestCustomer
+│   │   ├── MemberCustomer
+│   │   ├── PremiumCustomer
+│   ├── data/
+│   │   ├── CustomersDataStorage
+│   │   ├── LibItemDataStorage
+│   ├── libraryItems/
+│   │   ├── AudioBook
+│   │   ├── Book
+│   │   ├── DVD
+│   │   ├── LibraryItem
+│   │   ├── Magazine
+│   ├── utils/
+│   │   ├── CustomersManagementApp
+│   │   ├── LibManagementSystemApp
+│   │   ├── Main
+│── .gitignore
+│── Library-Management-System.iml
+│── External Libraries/
+│── Scratches and Consoles/
 ```
 
 ## How It Works
